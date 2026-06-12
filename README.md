@@ -1,18 +1,18 @@
 <div align="center">
-
 ```
-██████╗ ███████╗ ██████╗ ██████╗ ███████╗████████╗
-██╔══██╗██╔════╝██╔════╝ ██╔══██╗██╔════╝╚══██╔══╝
-██████╔╝█████╗  ██║  ███╗██████╔╝█████╗     ██║   
-██╔══██╗██╔══╝  ██║   ██║██╔══██╗██╔══╝     ██║   
-██║  ██║███████╗╚██████╔╝██║  ██║███████╗   ██║   
-╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝   ╚═╝  
-███████╗███╗   ██╗ ██████╗ ██╗███╗   ██╗███████╗
-██╔════╝████╗  ██║██╔════╝ ██║████╗  ██║██╔════╝
-█████╗  ██╔██╗ ██║██║  ███╗██║██╔██╗ ██║█████╗  
-██╔══╝  ██║╚██╗██║██║   ██║██║██║╚██╗██║██╔══╝  
+ ██████╗ ███████╗ ██████╗ ██████╗ ███████╗████████╗
+ ██╔══██╗██╔════╝██╔════╝ ██╔══██╗██╔════╝╚══██╔══╝
+ ██████╔╝█████╗ ██║ ███╗██████╔╝█████╗ ██║
+ ██╔══██╗██╔══╝ ██║ ██║██╔══██╗██╔══╝ ██║
+ ██║ ██║███████╗╚██████╔╝██║ ██║███████╗ ██║
+ ╚═╝ ╚═╝╚══════╝ ╚═════╝ ╚═╝ ╚═╝╚══════╝ ╚═╝
+
+███████╗███╗ ██╗ ██████╗ ██╗███╗ ██╗███████╗
+██╔════╝████╗ ██║██╔════╝ ██║████╗ ██║██╔════╝
+█████╗ ██╔██╗ ██║██║ ███╗██║██╔██╗ ██║█████╗
+██╔══╝ ██║╚██╗██║██║ ██║██║██║╚██╗██║██╔══╝
 ███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗
-╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝
+╚══════╝╚═╝ ╚═══╝ ╚═════╝ ╚═╝╚═╝ ╚═══╝╚══════╝
 ```
 
 ### _Tinder for your bank statement. Swipe. Regret. Learn._
@@ -23,7 +23,7 @@
 [![Zero Backend](https://img.shields.io/badge/Backend-ZERO-00FF88?style=for-the-badge)](#privacy)
 [![Privacy First](https://img.shields.io/badge/Data%20Leaves%20Device-NEVER-FF0066?style=for-the-badge)](#privacy)
 
-> **Upload a CSV. Swipe every purchase — right if it was worth it, left if you regret it.**  
+> **Upload a CSV. Swipe every purchase — right if it was worth it, left if you regret it.**
 > Get your **Regret Receipt**: regret rate, dollars regretted per month, and spending patterns you never knew you had.
 
 ---
@@ -38,6 +38,14 @@ Think of it as a mirror for your wallet: it forces you to confront every purchas
 
 ---
 
+## 🌐 Live Demo
+
+**Try it now — no setup, no signup, no data leaves your browser:**
+
+👉 **[https://regret-engine-zeta.vercel.app](https://regret-engine-zeta.vercel.app)**
+
+---
+
 ## 🚀 Quickstart
 
 ```bash
@@ -47,7 +55,7 @@ cd Regret-Engine/regret-engine
 npm install
 
 # Launch dev server
-npm run dev        # → http://localhost:5173
+npm run dev          # → http://localhost:5173
 ```
 
 ### All Scripts
@@ -61,54 +69,30 @@ npm run dev        # → http://localhost:5173
 
 ---
 
-## 🌐 Deploy in Seconds
-
-### Option 1 — Vercel (Recommended)
-1. Push this repo to GitHub
-2. Go to [vercel.com](https://vercel.com) → **Add New Project** → Import repo
-3. Vercel auto-detects Vite. Build: `npm run build`, Output: `dist`
-4. Done — live URL + HTTPS, zero config
-
-### Option 2 — Vercel CLI
-```bash
-npx vercel          # follow prompts
-npx vercel --prod   # push to production
-```
-
-### Option 3 — Netlify Drop (No Tooling)
-1. The repo ships with a prebuilt `dist/` folder
-2. Go to [app.netlify.com/drop](https://app.netlify.com/drop)
-3. Drag the `dist/` folder onto the page
-4. **Live in ~10 seconds.** No config, no CLI, no account needed
-
-> There is no backend, no environment variables, and nothing to configure. Any static host works.
-
----
-
 ## 🧠 How It Works
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                     REGRET ENGINE PIPELINE                      │
+│                    REGRET ENGINE PIPELINE                       │
 ├──────────────┬──────────────┬──────────────┬────────────────────┤
-│  parseCsv.js │   clean.js   │ discretion.js│    Deck.jsx        │
+│ parseCsv.js  │   clean.js   │discretion.js │     Deck.jsx       │
 │              │              │              │                    │
-│ ◆ Chase      │ ◆ 110+ known │ ◆ Auto-skip  │ ◆ 25-card swipe   │
+│ ◆ Chase      │ ◆ 110+ known │ ◆ Auto-skip  │ ◆ 25-card swipe    │
 │ ◆ Amex       │   merchants  │   income     │   deck             │
-│ ◆ BofA       │ ◆ Strip SQ*  │ ◆ Auto-skip  │ ◆ Verdicts in     │
+│ ◆ BofA       │ ◆ Strip SQ*  │ ◆ Auto-skip  │ ◆ Verdicts in      │
 │ ◆ Debit cols │   TST* etc.  │   transfers  │   localStorage     │
-│ ◆ Headerless │ ◆ Category   │ ◆ Detect     │ ◆ Swipe right =   │
+│ ◆ Headerless │ ◆ Category   │ ◆ Detect     │ ◆ Swipe right =    │
 │ ◆ Stable IDs │   guessing   │   recurring  │   worth it         │
 │              │              │   subs       │ ◆ Swipe left =     │
 │              │              │              │   regret           │
 └──────────────┴──────────────┴──────────────┴────────────────────┘
-                                    │
-                                    ▼
+                              │
+                              ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                        stats.js + Report.jsx                    │
+│                    stats.js + Report.jsx                        │
 │                                                                 │
-│  📊 Regret Rate   💸 $/month   🏪 Per-Merchant   📅 Day-of-Week │
-│  🔄 Subscription Annualization   🖼 Share Card (1080×1350 PNG) │
+│ 📊 Regret Rate  💸 $/month  🏪 Per-Merchant  📅 Day-of-Week    │
+│ 🔄 Subscription Annualization  🖼 Share Card (1080×1350 PNG)   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -148,13 +132,21 @@ npx vercel --prod   # push to production
 ## 🛣 Roadmap
 
 ```
-[ PHASE 1 — LIVE NOW ]         ✅ CSV parsing + swipe deck + Regret Receipt
-[ PHASE 2 — IN PROGRESS ]      🔄 PWA install + offline push notifications
-[ PHASE 3 — PLANNED ]          📡 Plaid/Teller bank linking (fresh decks, no exports)
-[ PHASE 4 — RESEARCH ]         🤖 LLM merchant-string enrichment (serverless)
-[ PHASE 5 — VISION ]           🔮 Regret prediction engine — "You've regretted
-                                    7 of your last 9 purchases like this."
-                                    Return-window flagging — "Return it. $63 back."
+[ PHASE 1 — LIVE NOW ]
+✅ CSV parsing + swipe deck + Regret Receipt
+
+[ PHASE 2 — IN PROGRESS ]
+🔄 PWA install + offline push notifications
+
+[ PHASE 3 — PLANNED ]
+📡 Plaid/Teller bank linking (fresh decks, no exports)
+
+[ PHASE 4 — RESEARCH ]
+🤖 LLM merchant-string enrichment (serverless)
+
+[ PHASE 5 — VISION ]
+🔮 Regret prediction engine — "You've regretted 7 of your last 9 purchases like this."
+    Return-window flagging — "Return it. $63 back."
 ```
 
 ---
@@ -187,11 +179,7 @@ Regret-Engine/
 
 ---
 
-<div align="center">
-
-_Built with obsession over spending psychology._  
+_Built with obsession over spending psychology._
 _No VC funding. No data harvesting. Just vibes and regret._
 
 **[⭐ Star this repo](https://github.com/HrushikeshReddyyyy/Regret-Engine) if it made you think twice about that last purchase.**
-
-</div>
