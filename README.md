@@ -1,53 +1,112 @@
 <div align="center">
 
-```
- ██████╗ ███████╗ ██████╗ ██████╗ ███████╗████████╗
- ██╔══██╗██╔════╝██╔════╝ ██╔══██╗██╔════╝╚══██╔══╝
- ██████╔╝█████╗ ██║ ███╗██████╔╝█████╗ ██║
- ██╔══██╗██╔══╝ ██║ ██║██╔══██╗██╔══╝ ██║
- ██║ ██║███████╗╚██████╔╝██║ ██║███████╗ ██║
- ╚═╝ ╚═╝╚══════╝ ╚═════╝ ╚═╝ ╚═╝╚══════╝ ╚═╝
+<!-- 3D Animated Header via capsule-render -->
+<img src="https://capsule-render.vercel.app/api?type=venom&height=300&text=REGRET%20RATE&fontSize=80&color=0:0f2027,50:203a43,100:2c5364&stroke=00ff88&strokeWidth=3&fontColor=00ff88&animation=fadeIn&fontAlignY=50&desc=Tinder%20for%20your%20bank%20statement.%20100%25%20in%20your%20browser.&descSize=20&descAlignY=70&descColor=aaffcc" width="100%" />
 
-███████╗███╗ ██╗ ██████╗ ██╗███╗ ██╗███████╗
-██╔════╝████╗ ██║██╔════╝ ██║████╗ ██║██╔════╝
-█████╗ ██╔██╗ ██║██║ ███╗██║██╔██╗ ██║█████╗
-██╔══╝ ██║╚██╗██║██║ ██║██║██║╚██╗██║██╔══╝
-███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗
-╚══════╝╚═╝ ╚═══╝ ╚═════╝ ╚═╝╚═╝ ╚═══╝╚══════╝
-```
+<!-- Animated typing effect -->
+<a href="https://regret-engine-zeta.vercel.app">
+  <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=700&size=22&duration=3000&pause=1000&color=00FF88&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=80&lines=Swipe+every+purchase+%E2%86%92+Worth+it+%7C+Regret;100%25+client-side.+Zero+servers.+Zero+leaks.;Your+statement+never+leaves+your+device." alt="Typing SVG" />
+</a>
 
-### _Tinder for your bank statement. Swipe. Regret. Learn._
+<br/>
 
-[![MIT License](https://img.shields.io/badge/License-MIT-cyan.svg?style=for-the-badge)](LICENSE)
-[![Vite](https://img.shields.io/badge/Built%20With-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
-[![Zero Backend](https://img.shields.io/badge/Backend-ZERO-00FF88?style=for-the-badge)](#privacy)
-[![Privacy First](https://img.shields.io/badge/Data%20Leaves%20Device-NEVER-FF0066?style=for-the-badge)](#privacy)
+<!-- Live Demo Button -->
+<a href="https://regret-engine-zeta.vercel.app">
+  <img src="https://img.shields.io/badge/%E2%96%B6%20LIVE%20DEMO-regret--engine--zeta.vercel.app-00FF88?style=for-the-badge&labelColor=0d1117&color=00FF88" alt="Live Demo" />
+</a>
+&nbsp;
+<a href="https://github.com/HrushikeshReddyyyy/Regret-Engine">
+  <img src="https://img.shields.io/badge/GitHub-Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
 
-> **Upload a CSV. Swipe every purchase — right if it was worth it, left if you regret it.**
-> Get your **Regret Receipt**: regret rate, dollars regretted per month, and spending patterns you never knew you had.
+<br/><br/>
 
----
+<!-- Tech Stack Badges -->
+<img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+<img src="https://img.shields.io/badge/Backend-ZERO-00FF88?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Data%20Leaves%20Device-NEVER-FF0066?style=for-the-badge" />
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 
 </div>
 
-## ⚡ What Is This?
+---
 
-Regret Engine is a **100% client-side** spending psychology tool. No accounts. No bank logins. No server. No cloud. Your financial data is parsed in your browser, stored in your browser, and **never leaves your device** — not even for a millisecond.
+## What is Regret Rate?
 
-Think of it as a mirror for your wallet: it forces you to confront every purchase and answer one brutal question — *was it worth it?*
+**Regret Rate** is a 100% client-side spending psychology tool. Upload your bank CSV, swipe every discretionary purchase (right = worth it, left = regret), and receive your **Regret Receipt** — a shareable breakdown of what % of your spending you genuinely regret.
+
+The constraint that shaped everything: **your statement never leaves your device.** No backend. No accounts. No bank logins. Parsing, scoring, and analytics all happen in your browser.
 
 ---
 
-## 🌐 Live Demo
+<div align="center">
 
-**Try it now — no setup, no signup, no data leaves your browser:**
+<!-- Animated pipeline diagram -->
 
-👉 **[https://regret-engine-zeta.vercel.app](https://regret-engine-zeta.vercel.app)**
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║              REGRET RATE  ·  CLIENT-SIDE PIPELINE                   ║
+╠══════════╦══════════╦══════════════╦══════════════╦═════════════════╣
+║ INGEST   ║ CLEAN    ║ FILTER       ║ SWIPE DECK   ║ REPORT          ║
+╠══════════╬══════════╬══════════════╬══════════════╬═════════════════╣
+║ CSV      ║ 110+     ║ Auto-skip    ║ 25 cards     ║ Regret Rate %   ║
+║ OFX/QFX* ║ merchant ║ income &     ║ ← Regret     ║ $/mo regretted  ║
+║ PDF*     ║ aliases  ║ transfers    ║ → Worth it   ║ Per-merchant    ║
+║ Intl*    ║ Category ║ Detect subs  ║ S Skip  U Undo║ Sub kill list  ║
+╚══════════╩══════════╩══════════════╩══════════════╩═════════════════╝
+                                                        * Coming Phase 2
+```
+
+</div>
 
 ---
 
-## 🚀 Quickstart
+## Features
+
+| Feature | Status | Description |
+|---|---|---|
+| Swipe Deck | ✅ Live | 25-card swipe UI — right = worth it, left = regret |
+| Regret Receipt | ✅ Live | Rate, $/mo, top offenders, shareable PNG card |
+| Subscription Detection | ✅ Live | Auto-identifies recurring subs, annualizes them |
+| Per-Merchant Analytics | ✅ Live | Spot patterns by merchant, weekday, category |
+| Share Card | ✅ Live | 1080×1350 canvas PNG — your receipt as a post |
+| localStorage Persistence | ✅ Live | 2,000-txn cap, zero cloud, fully device-local |
+| Sample Data Mode | ✅ Live | Full demo without uploading anything |
+| OFX / QFX Parser | 🔨 Phase 2 | Every US bank's Quicken export format |
+| PDF Statement Parser | 🔨 Phase 2 | Text-based PDFs via pdf.js (dynamic import) |
+| International Formats | 🔨 Phase 2 | Decimal-comma amounts, DD/MM/YYYY dates |
+| PWA Install | 🔨 Phase 2 | Add to home screen, offline-first |
+| Trends + Sparkline | 🔨 Phase 2 | "38% → 29% since April" habit loop |
+| JSON Backup / Import | 🔨 Phase 2 | Your backup is a file you own |
+| Return Window Flags | 🔨 Phase 3 | "Still returnable — 8 days left, $63 back" |
+| Subscription Kill List | 🔨 Phase 3 | Annualized regretted subs + cancel links |
+| Regret Prediction | 🔨 Phase 3 | Laplace-smoothed per-merchant regret scores |
+| Pre-Purchase Check | 🔨 Phase 3 | Type merchant + amount → predicted regret |
+
+---
+
+## Privacy — The Whole Point
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  YOUR DATA FLOW                                         │
+│                                                         │
+│  📁 Your CSV  ──►  🌐 Browser Parser  ──►  💾 localStorage │
+│                                                         │
+│  ❌ No server  ❌ No API  ❌ No accounts  ❌ No telemetry  │
+│                                                         │
+│  ✅ Works fully offline after first load                │
+│  ✅ "Clear all data" wipes everything instantly         │
+│  ✅ localStorage key: regret-engine:v1  (device-only)  │
+└─────────────────────────────────────────────────────────┘
+```
+
+> We count visits and completed decks — nothing else. Your transactions never leave your browser.
+
+---
+
+## Quickstart
 
 ```bash
 # Clone & install
@@ -55,118 +114,63 @@ git clone https://github.com/HrushikeshReddyyyy/Regret-Engine.git
 cd Regret-Engine/regret-engine
 npm install
 
-# Launch dev server
-npm run dev          # → http://localhost:5173
-```
+# Dev server
+npm run dev
+# → http://localhost:5173
 
-### All Scripts
+# Production build
+npm run build
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start dev server at `localhost:5173` |
-| `npm run build` | Production build → `dist/` |
-| `npm run preview` | Serve production build locally |
-| `npm run smoke` | Run 26 logic tests across the full pipeline |
-
----
-
-## 🧠 How It Works
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    REGRET ENGINE PIPELINE                       │
-├──────────────┬──────────────┬──────────────┬────────────────────┤
-│ parseCsv.js  │   clean.js   │discretion.js │     Deck.jsx       │
-│              │              │              │                    │
-│ ◆ Chase      │ ◆ 110+ known │ ◆ Auto-skip  │ ◆ 25-card swipe    │
-│ ◆ Amex       │   merchants  │   income     │   deck             │
-│ ◆ BofA       │ ◆ Strip SQ*  │ ◆ Auto-skip  │ ◆ Verdicts in      │
-│ ◆ Debit cols │   TST* etc.  │   transfers  │   localStorage     │
-│ ◆ Headerless │ ◆ Category   │ ◆ Detect     │ ◆ Swipe right =    │
-│ ◆ Stable IDs │   guessing   │   recurring  │   worth it         │
-│              │              │   subs       │ ◆ Swipe left =     │
-│              │              │              │   regret           │
-└──────────────┴──────────────┴──────────────┴────────────────────┘
-                              │
-                              ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                    stats.js + Report.jsx                        │
-│                                                                 │
-│ 📊 Regret Rate  💸 $/month  🏪 Per-Merchant  📅 Day-of-Week    │
-│ 🔄 Subscription Annualization  🖼 Share Card (1080×1350 PNG)   │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-**State** lives in `localStorage` under `regret-engine:v1` — capped at 2,000 transactions (oldest unrated dropped first). "Clear all data" wipes everything instantly.
-
----
-
-## 🔒 Privacy — The Core Promise
-
-> Your statement is parsed in the browser and stored only in the browser.
-
-- ✅ Zero telemetry
-- ✅ Zero analytics
-- ✅ Zero network calls (except fetching the app bundle itself)
-- ✅ Works fully offline after first load
-- ✅ No accounts, no OAuth, no third-party cookies
-
-**If you add a backend later — add it for features, not for harvesting.**
-
----
-
-## 📂 CSV Compatibility
-
-| Format | Supported |
-|---|---|
-| Chase / Amex / BofA exports | ✅ |
-| Single signed-amount column | ✅ |
-| Separate Debit / Credit columns | ✅ |
-| Parenthesized negatives | ✅ |
-| Headerless files | ✅ |
-| ISO dates & M/D/Y dates | ✅ |
-| European decimal-comma (`1.234,56`) | ❌ Coming soon |
-| PDF / OFX / QFX exports | ❌ Coming soon |
-
----
-
-## 🛣 Roadmap
-
-```
-[ PHASE 1 — LIVE NOW ]
-✅ CSV parsing + swipe deck + Regret Receipt
-
-[ PHASE 2 — IN PROGRESS ]
-🔄 PWA install + offline push notifications
-
-[ PHASE 3 — PLANNED ]
-📡 Plaid/Teller bank linking (fresh decks, no exports)
-
-[ PHASE 4 — RESEARCH ]
-🤖 LLM merchant-string enrichment (serverless)
-
-[ PHASE 5 — VISION ]
-🔮 Regret prediction engine — "You've regretted 7 of your last 9 purchases like this."
-    Return-window flagging — "Return it. $63 back."
+# Smoke tests
+npm run smoke
 ```
 
 ---
 
-## 🗂 Project Structure
+## Tech Stack
+
+| Layer | Choice | Why |
+|---|---|---|
+| UI Framework | React 18 + Vite | Fast HMR, tiny bundle |
+| CSV Parsing | PapaParse | Battle-tested, streaming |
+| PDF Parsing | pdf.js (dynamic import) | ~1MB loaded only when needed |
+| State | localStorage only | Privacy-first; evictable by user |
+| Share Card | Canvas API | No server-side image gen |
+| Tests | Vitest (porting in progress) | ESM-native, fast |
+| CI | GitHub Actions | build + test on every push |
+| Deploy | Vercel | Zero-config Vite deploy |
+
+---
+
+## Project Structure
 
 ```
 Regret-Engine/
 └── regret-engine/
     ├── src/
-    │   ├── parseCsv.js       # CSV header detection + amount heuristics
-    │   ├── clean.js          # Merchant cleanup (110+ entries) + categories
-    │   ├── discretionary.js  # Auto-filter income, transfers, rent, subs
-    │   ├── stats.js          # Regret rate, $/mo, per-merchant, day-of-week
-    │   ├── Deck.jsx          # 25-card swipe UI
-    │   └── Report.jsx        # Regret Receipt + 1080×1350 share card
-    ├── public/               # Static assets
-    ├── dist/                 # Prebuilt production bundle
-    ├── scripts/              # Smoke test runner
+    │   ├── lib/
+    │   │   ├── parseCsv.js          # Header detection + sign heuristics
+    │   │   ├── parseOfx.js          # OFX/QFX SGML parser  [Phase 2]
+    │   │   ├── parsePdf.js          # pdf.js wrapper        [Phase 2]
+    │   │   ├── parsePdfLayout.js    # Row reconstruction    [Phase 2]
+    │   │   ├── clean.js             # 110+ merchant aliases + categories
+    │   │   ├── discretionary.js     # Auto-filter income/transfers/subs
+    │   │   ├── stats.js             # Rate, $/mo, per-merchant, day-of-week
+    │   │   ├── predict.js           # Laplace regret prediction [Phase 3]
+    │   │   ├── returns.js           # Return-window flags   [Phase 3]
+    │   │   ├── cancelLinks.js       # Sub kill list         [Phase 3]
+    │   │   └── storage.js           # Versioned localStorage (v1→v2)
+    │   ├── components/
+    │   │   ├── Deck.jsx             # 25-card swipe UI
+    │   │   ├── Report.jsx           # Regret Receipt + share card
+    │   │   └── Landing.jsx          # Upload / sample flow
+    │   └── main.jsx
+    ├── src/lib/__tests__/           # Vitest suite (porting in progress)
+    ├── .github/workflows/ci.yml    # CI: test + build on push
+    ├── public/
+    │   ├── sample.csv               # Demo statement (90 rows)
+    │   ├── favicon.svg
+    │   └── og.png                   # 1200×630 OG image
     ├── index.html
     ├── vite.config.js
     └── package.json
@@ -174,13 +178,67 @@ Regret-Engine/
 
 ---
 
-## 📜 License
+## Roadmap
 
-**MIT** — see [`LICENSE`](LICENSE). Build on it, fork it, ship it.
+<div align="center">
+
+| Phase | Milestone | ETA |
+|---|---|---|
+| ✅ Phase 1 | Ship: live URL · OG tags · README · Smoke tests | Done |
+| 🔨 Phase 2 | OFX/QFX · PDF parsing · Intl formats · PWA · Trends | Week 2–3 |
+| 🔭 Phase 3 | Return windows · Kill list · Regret prediction | Week 4–5 |
+| 🚀 Phase 4 | Show HN · Product Hunt · Plaid opt-in tier | Post-launch |
+
+</div>
+
+**Deliberately excluded:** OCR for scanned PDFs (too heavy), LLM merchant cleanup (privacy tradeoff), auto bank linking on the default path. Excluding things on purpose is itself showcase material — see `ARCHITECTURE.md`.
 
 ---
 
-_Built with obsession over spending psychology._
-_No VC funding. No data harvesting. Just vibes and regret._
+## Storage Schema (v2)
 
-**[⭐ Star this repo](https://github.com/HrushikeshReddyyyy/Regret-Engine) if it made you think twice about that last purchase.**
+```js
+// localStorage key: "regret-engine:v1"  ← never rename (wipes user data)
+// Schema v2 shape:
+{
+  v: 2,
+  txns:    { [id]: { d, n, e, c, a, r, s } },   // slim 7-field records
+  ratings: { [id]: { v, t, ret? } },              // verdict + timestamp
+  sessions: [ { ts, judged, rate, dollarRate, regretPerMonth, topMerchant } ], // trends
+  lastDeckCompletedAt: number | null,
+  cancelled: { [subName]: { t, annual } }          // kill-list tallies
+}
+// Cap: 2,000 txns · 60 sessions · oldest-unrated dropped first
+```
+
+---
+
+## Test Suite
+
+```bash
+npm run smoke          # Node-native smoke tests (current)
+npm test               # Vitest suite (porting in progress)
+npm run coverage       # Coverage via @vitest/coverage-v8
+```
+
+Test coverage targets:
+- `parseCsv` — 6 bank formats, parenthesized negatives, headerless files
+- `parseOfx` — SGML tag soup, FITID stability, timezone suffixes
+- `parsePdf` — Row reconstruction from synthetic text-item arrays
+- `clean` — 110+ merchant alias cases
+- `discretionary` — Income/transfer/sub filtering
+- `stats` — monthsSpan edge cases, subscription annualization
+- `predict` — Laplace smoothing, fallback ladder, threshold gating
+- `storage` — v1→v2 migration, addTxns cap, importBackup merge
+
+---
+
+<div align="center">
+
+<!-- Animated footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=120&section=footer&text=Your%20statement%20never%20leaves%20your%20device.&fontSize=18&fontColor=00ff88&animation=twinkling" width="100%" />
+
+<sub>Built with spending psychology, privacy-first architecture, and zero VC money.<br/>
+MIT License · <a href="https://regret-engine-zeta.vercel.app">regret-engine-zeta.vercel.app</a></sub>
+
+</div>
