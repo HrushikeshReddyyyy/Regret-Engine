@@ -86,7 +86,7 @@ export async function drawShareCard(canvas, rep, headline) {
   ctx.textAlign = 'center';
   ctx.fillStyle = INK;
   ctx.font = '700 40px "IBM Plex Mono", monospace';
-  ctx.fillText('R E G R E T   E N G I N E', W / 2, y);
+  ctx.fillText('R E G R E T   R A T E', W / 2, y);
   y += 52;
   ctx.font = '500 28px "IBM Plex Mono", monospace';
   ctx.fillStyle = FADED;
