@@ -43,7 +43,7 @@ export default function Landing({
       )}
 
       <section className="paper tear-b hero print-in" style={{ '--d': '0.05s' }}>
-        <p className="eyebrow">REGRET ENGINE · SELF-AUDIT DIVISION</p>
+        <p className="eyebrow">REGRET RATE · SELF-AUDIT DIVISION</p>
         <h1>
           What <span className="pct">%</span> of your spending do you regret?
         </h1>
